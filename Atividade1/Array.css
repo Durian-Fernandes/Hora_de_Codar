@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(/Atividade1/img/Estudantes.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color:#F0F0F0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 370px;
+    
+    
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #A04118;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(204, 112, 54, 0.5);
+}
+
+button:hover {
+    background-color: #6A2B10;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 10px;
+}
